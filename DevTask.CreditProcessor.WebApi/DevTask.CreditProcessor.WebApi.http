@@ -1,0 +1,11 @@
+@DevTask.CreditProcessor.WebApi_HostAddress = https://localhost:7155
+
+GET {{DevTask.CreditProcessor.WebApi_HostAddress}}/api/credits/
+Accept: application/json
+
+###
+
+GET {{DevTask.CreditProcessor.WebApi_HostAddress}}/api/credits/status-report
+Accept: application/json
+
+###
